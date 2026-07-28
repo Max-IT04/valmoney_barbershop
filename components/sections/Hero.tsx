@@ -6,8 +6,14 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Правый блок - логотип/фото */}
         <div className="relative flex justify-center lg:justify-end">
-          <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-[#8B0000] bg-[#1a1a1a] flex items-center justify-center">
-            <span className="text-6xl font-bold text-[#8B0000]">V</span>
+          <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-[#8B0000] bg-[#1a1a1a]">
+            <Image
+              src="/valmoney_logo.jpg"
+              alt="VALMONEY"
+              width={400}
+              height={400}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 

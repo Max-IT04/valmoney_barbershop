@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/Navbar";
 import About from "@/components/sections/About";
 import Contacts from "@/components/sections/Contacts";
 import Hero from "@/components/sections/Hero";
@@ -7,11 +8,13 @@ import Services from "@/components/sections/Services";
 export default function Home() {
   return (
     <main className="flex-1">
+      <Navbar />
       <Hero />
-      <Services />
-      <Portfolio />
-      <About />
-      <Contacts />
+      <Services id="services" />
+      <Portfolio id="portfolio" />
+      <About id="about" />
+      <Contacts id="contacts" />
+      {/* <Footer /> */}
     </main>
   );
 }

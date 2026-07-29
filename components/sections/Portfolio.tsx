@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export default function Portfolio() {
+export default function Portfolio({ id }: { id?: string }) {
   const [current, setCurrent] = useState(0);
 
   const slides = [
@@ -22,7 +22,7 @@ export default function Portfolio() {
   }
 
   return (
-  <section className="py-20 px-4 md:px-8 lg:px-16 bg-[#0d0d0d]">
+  <section id={id} className="py-20 px-4 md:px-8 lg:px-16 bg-[#0d0d0d]">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           <span className="text-[#8B0000]">Примеры</span> работ

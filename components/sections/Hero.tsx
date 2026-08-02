@@ -29,7 +29,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="https://vk.com/your_link"
+              href="https://vk.ru/id759635974"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-[#8B0000] text-white rounded-lg font-semibold hover:bg-[#a00000] transition-all text-center"
@@ -37,7 +37,7 @@ export default function Hero() {
               Записаться
             </a>
             <a
-              href="https://t.me/your_link"
+              href="https://t.me/ССЫЛКА-МАКС"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-[#8B0000] text-white rounded-lg font-semibold hover:bg-[#8B0000] hover:text-white transition-all text-center"
@@ -46,7 +46,7 @@ export default function Hero() {
             </a>
           </div>
           <p className="text-sm text-gray-500 pt-4">
-            +7 (999) 123-45-67
+            +7 (962) 493-03-33
           </p>
         </div>
       </div>

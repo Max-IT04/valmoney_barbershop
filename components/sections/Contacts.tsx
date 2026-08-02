@@ -22,12 +22,12 @@ export default function Contacts({ id }: { id?: string }) {
                 <span className="text-2xl">📞</span>
                 <div>
                   <p className="text-sm text-gray-400">Телефон</p>
-                  <p className="text-white font-medium">+7 (999) 123-45-67</p>
+                  <p className="text-white font-medium">+7 (962) 493-03-33</p>
                 </div>
               </a>
 
               <a
-                href="https://vk.com/your_link"
+                href="https://vk.ru/id759635974"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-[#1a1a1a] rounded-lg hover:bg-[#2a1a1a] transition-all border border-gray-800 hover:border-[#8B0000]"
